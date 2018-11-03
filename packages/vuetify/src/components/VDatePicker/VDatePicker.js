@@ -27,7 +27,7 @@ export default {
       default: null
     },
     events: {
-      type: [Array, Function, Object, String],
+      type: [Array, Function, Object],
       default: () => null
     },
     eventColor: {
