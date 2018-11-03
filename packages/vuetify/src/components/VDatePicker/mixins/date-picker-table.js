@@ -98,7 +98,7 @@ export default {
         this.$createElement('div', {
           staticClass: 'v-btn__content'
         }, [this.formatter(value)]),
-        this.genEvent(value)
+        this.genEvents(value)
       ])
     },
     /**
@@ -117,7 +117,7 @@ export default {
         return false
       }
     },
-    genEvent (date) {
+    genEvents (date) {
       let eventColors = this.getEventData(date)
 
       if (eventColors === true) {
